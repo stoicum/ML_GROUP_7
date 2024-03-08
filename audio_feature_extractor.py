@@ -27,12 +27,8 @@ audioFeatures.append(csvTags)
 for folderName in audioFileFoldersPath:
     path = audioFileFolderPath + folderName + "/"
     audioFileNames = os.listdir(path)
-    # if folderName != "jazz":
-    #     continue
-    a = 0
+
     for audioFileName in audioFileNames:
-        if a >= 1: break;
-        a += 1
         print(path + audioFileName)
         try:
             y, sr = librosa.load(path + audioFileName, duration=30)
