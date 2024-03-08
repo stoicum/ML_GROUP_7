@@ -1,6 +1,10 @@
 # Music Tagger
+
 ## Intro
 Music genre classification based on audio processing and machine learning
+
+## Training Data
+https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
 
 ## Features 
 filename: name of the audio file.
@@ -27,5 +31,3 @@ tempo: The tempo of the track, i.e. the number of beats per minute, which is the
 
 mfcc[1-20]_mean & mfcc[1-20]_var: The mean and variance of the Mel Frequency Cepstrum Coefficients (MFCCs). These are representations of sound signals and are commonly used in sound recognition and music signal processing. Each MFCC captures a different "shape" of the audio signal and can be thought of as a "fingerprint" of the audio.
 
-## Training Data
-https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
