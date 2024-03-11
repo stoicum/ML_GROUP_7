@@ -4,7 +4,7 @@
 Music genre classification based on audio processing and machine learning
 
 ## Training Data
-https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
+https://www.kaggle.com/datasets/carlthome/gtzan-genre-collection
 
 ## Features 
 filename: name of the audio file.
