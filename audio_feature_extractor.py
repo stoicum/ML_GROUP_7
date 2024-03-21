@@ -93,6 +93,6 @@ for folderName in audioFileFoldersPath:
         features.append(folderName)
         audioFeatures.append(features)
 
-with open('features_30_sec.csv', 'w', newline='') as file:
+with open('cache/features_30_sec.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(audioFeatures)
